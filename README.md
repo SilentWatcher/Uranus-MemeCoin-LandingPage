@@ -43,5 +43,7 @@ Many of the corrupt are just broken souls, so with the chance to repent “if yo
 - ### Designed in figma [Link](https://www.figma.com/file/eWnyxpi8QCMH3oikPkUW65/Uranus-Meme-Coin?type=design&node-id=106%3A2&mode=design&t=C0nDbAoEfyBvSnGg-1) 
 - ### Developed in React
 
+<br>
+
 ## Live Project 
-- ### Netlify
+### Netlify  [Link](https://uranus-meme-coin.netlify.app/)
