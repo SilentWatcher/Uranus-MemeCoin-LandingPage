@@ -39,8 +39,7 @@ Many of the corrupt are just broken souls, so with the chance to repent “if yo
 - **Connect with Us**: Follow us on social media for the latest updates and memes.
 - **Spread the Word**: Share the message of Uranus Meme Coin with friends and family.
 
-## Design and Developerd 
-- ### Designed in figma [Link](https://www.figma.com/file/eWnyxpi8QCMH3oikPkUW65/Uranus-Meme-Coin?type=design&node-id=106%3A2&mode=design&t=C0nDbAoEfyBvSnGg-1) 
+## Developed 
 - ### Developed in React
 
 <br>
