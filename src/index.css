@@ -1,0 +1,210 @@
+/* GOOGLE FONT */
+
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+/* Define variables */
+:root {
+  /* Colors */
+
+/* background */
+  /* --body-color: #000127; */
+  --body-color: #000000;
+  
+  
+  --text-color: #eee;
+  --text-light:#eeeeeec4;
+  --text-orange:#f07e2c;
+  --text-cyan:#87ece1;
+  --text-light-orange:#fda261;
+  
+  /* font-family */
+  --font-family:"Roboto", sans-serif;
+  --font-goldman: 
+
+  /* GRADIENT EFFECT */
+  --gradient-effect:linear-gradient(0.5turn, var(--text-cyan),var(--text-orange),var(--text-orange),var(--text-cyan),var(--text-cyan));
+
+  /* Font sizes */
+  /* @link https://utopia.fyi/type/calculator?c=320,18,1.2,1240,20,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+  --step--2: clamp(0.7813rem, 0.7747rem + 0.0326vi, 0.8rem);
+  --step--1: clamp(0.9375rem, 0.9158rem + 0.1087vi, 1rem);
+  --step-0: clamp(1.125rem, 1.0815rem + 0.2174vi, 1.25rem);
+  --step-1: clamp(1.35rem, 1.2761rem + 0.3696vi, 1.5625rem);
+  --step-2: clamp(1.62rem, 1.5041rem + 0.5793vi, 1.9531rem);
+  --step-3: clamp(1.944rem, 1.771rem + 0.8651vi, 2.4414rem);
+  --step-4: clamp(2.3328rem, 2.0827rem + 1.2504vi, 3.0518rem);
+  --step-5: clamp(2.7994rem, 2.4462rem + 1.7658vw, 3.8147rem);
+
+  scroll-behavior: smooth;
+
+}
+
+/* Reset all margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Remove list styles (optional) */
+ul, ol {
+  list-style: none;
+}
+
+/* Remove default link styles (optional) */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+html{
+  font-size: 16px;
+}
+
+
+
+/* Global styles */
+body {
+  font-family: var(--font-family);
+  color: var(--text-color);
+  background-color: var(--body-color);
+  /* overflow-x: hidden; */
+  
+}
+
+
+
+
+.app_inline_margin{
+  margin-inline: auto;
+  /* border: 1px solid rgba(0, 255, 255, 0.418); */
+  max-width: 80vw;
+  /* overflow-x: hidden; */
+
+}
+@media only screen and (max-width: 375px) {
+  .app_inline_margin{
+    max-width: 90vw;
+    /* background: #000; */
+  }
+  
+}
+
+
+.gradient_boll_orange {
+  height: 1000px;
+  width: 1000px;
+  /* background:white ; */
+  background-image: radial-gradient(closest-side, #ed9362a4, #ed93622a , #00000000);
+  /* opacity: .4; */
+  z-index: -20;
+  opacity: .7;
+  position: absolute;
+  top:-100px;
+  right:-500px;
+  
+
+
+}
+
+.gradient_boll_cyan {
+  height: 1000px;
+  width: 1000px;
+  /* background:white ; */
+  background-image: radial-gradient(closest-side, #62ede6a4, #62e8ed2a , #00000000);
+  opacity: .6;
+  z-index: -20;
+
+  position: absolute;
+  top:-500px;
+  left:-500px;
+  
+
+
+}
+
+.goldman_regular {
+  font-family: "Goldman", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.goldman_bold {
+  font-family: "Goldman", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+

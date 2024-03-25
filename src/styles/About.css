@@ -1,0 +1,125 @@
+
+
+.aboutus_section{
+    /* min-height: 100vh; */
+    /* background: #c0c0c0; */
+    max-width: 90vw;
+    /* height: 90vh; */
+
+    margin-inline: auto;
+    text-align: center;
+    position: relative;
+    margin-top: 4rem;
+}
+.aboutus_section h1 {
+    font-size: clamp(1.5rem,3vw + 1rem, 3.2rem);
+    text-align: center;
+    background: linear-gradient(125deg, white , white, #f5783d);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+
+}
+.aboutus_section .partners{
+
+    margin-top: 2rem;
+    background: #ffffff;
+    margin-inline: 1.5rem;
+    border-radius: .8rem;
+
+    border-radius: 1rem;
+    /* border-radius: 8px; */
+    position: relative;
+    border: .4rem solid #333131 ;
+    /* overflow: hidden; */
+
+
+}
+
+.aboutus_section .partners img{
+
+    margin-block: auto;
+    height: 82px;
+    width: 150px;
+    object-fit: scale-down;
+    
+
+}
+
+.aboutus_section .gradient_blue{
+    width: 90vw;
+    height: 20rem;
+    background: rgba(101, 217, 221, 0.342);
+    /* background: rgba(90, 77, 212, 0.575); */
+    /* background:#1d427eea; */
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    border-radius: 100%;
+    filter: blur(150px);
+    
+}
+
+
+.aboutus_section .whatisuranus{
+    margin-top: 8rem;
+    text-align: left;
+    /* min-height: 100vh; */
+
+
+}
+.aboutus_section .whatisuranus .text_coin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+}
+.aboutus_section .whatisuranus .text_coin p{
+    max-width: 40rem;
+    font-size: 1.3rem;
+    line-height: 1.4;
+}
+.aboutus_section .whatisuranus .text_coin .memecoin{
+    height: 20em;
+    filter: drop-shadow(6px 1px rgb(126, 110, 21));
+    z-index: 999;
+}
+.aboutus_section .whatisuranus .text_coin .loopers{
+    position: absolute;
+    right: 0;
+    margin-right: -90px;
+    opacity: .8;
+}
+
+.aboutus_section .whatisuranus p{
+    
+    text-align: left;
+}
+@media (width <= 768px) {
+    .aboutus_section .whatisuranus .text_coin p{
+        /* max-width: 60rem; */
+        font-size: 1rem;
+        /* line-height: 1.4; */
+    }
+
+}
+/* @media (width <= 540px) {
+
+} */
+
+@media (width <= 440px) {
+    
+
+    .aboutus_section .partners img{
+
+        margin-block: auto;
+        height: 60px;
+        width: 100px;
+
+        object-fit: scale-down;
+        
+    
+    }
+
+}

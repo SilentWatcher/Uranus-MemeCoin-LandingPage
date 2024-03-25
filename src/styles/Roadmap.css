@@ -1,0 +1,116 @@
+.roadmap_section{
+    max-width: 90vw;
+    /* height: 90vh; */
+
+    margin-inline: auto;
+    text-align: center;
+    position: relative;
+    margin-block: 4rem ;
+    /* position: relative; */
+    /* border: 1px solid lightblue; */
+}
+.roadmap_section h1{
+    font-size: clamp(1.5rem,3vw + 1rem, 3.2rem);
+    text-align: center;
+    background: linear-gradient(125deg, white , white, #f5783d);
+    
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.roadmap_section .timeline{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border: 1px solid lightblue;
+
+
+    min-height: 10rem;
+    text-align: left;
+    /* border: 2px solid #289097; */
+    /* background-color: rgba(22, 22, 22, 0.445); */
+    background: #1616169c;
+    /* background: #16161600; */
+    /* background-image: linear-gradient(45deg, #000000 , #022727, rgba(19, 83, 85, 0.863)); */
+
+    position: relative;
+    max-width: 20rem;
+    padding: .8rem;
+    padding-left:35px; 
+    /* margin-bottom: .4rem; */
+    color: rgb(236, 232, 228);
+
+
+    /* background: rgba(255, 255, 255, 0.15);  */
+    /* backdrop-filter: blur(20px);  */
+    
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur( 4px );
+    /* backdrop-filter: blur( 100000px ); */
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: .825rem;
+    border: 1px solid rgba(52, 125, 134, 0.986);
+    transition: .5s all ease-in-out;
+}
+
+.roadmap_section .timeline:hover {
+
+    /* background:rgb(25, 59, 70); */
+    background: linear-gradient(45deg, rgb(0 115 123), rgb(66, 197, 197) 90%);
+    color: black;
+    /* color: white; */
+    /* transform: scale(1.02); */
+    backface-visibility: hidden;
+    cursor: pointer;
+}
+.roadmap_section .timeline h2{
+    font-size: clamp(.5rem , 4vw + 1rem , 1rem);
+}
+
+.roadmap_section .timeline p{
+    font-size: clamp(.5rem , 4vw + 1rem , .9rem);
+    font-weight: 400;
+    padding-block: .6rem;
+}
+
+.roadmap_section .timeline .textContent p{
+    margin-left: 20px;
+}
+.roadmap_section .timeline .numberOuter{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+    border: 5px solid #057178;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 100%;
+    display: inline-flex;
+    background: #95edf0;
+    color: black;
+    font-weight: 900;
+}
+
+.roadmap_section .timeline .numberinner{
+    border: 5px solid #00A3BC;
+    height: 2.4rem;
+    width:  2.4rem;
+    border-radius: 100%;
+    display: inline-flex;
+    margin: auto;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    
+}
+
+
+@media (width <= 375px) {
+
+    .roadmap_section{
+        margin-right:10px;
+    }
+}
